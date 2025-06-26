@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Inscrição Catequese</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="form-container">
+<h1>Ficha de Inscrição
+Catequese</h1>
+
+<nav>
+<a href="index.html">Início</a>
+<a href="associar.html">Quero me associar</a>
+<a href="catequese.html">Catequese</a>
+<a href="#">Sobre a comunidade</a>
+</nav>
+<main>
+
+<form action="#" method="post">
+<label for="nome">Nome completo da criança:</label>
+<input type="text" id="nome" name="nome" required>
+<label for="nascimento">Data de nascimento:</label>
+<input type="date" id="nascimento" name="nascimento" required>
+
+<label for="responsavel">Nome do responsável:</label>
+<input type="text" id="responsavel" name="responsavel" required>
+
+<label for="telefone">Telefone de contato:</label>
+<input type="tel" id="telefone" name="telefone" placeholder="(99) 99999-9999" required>
+
+<label for="email">E-mail (opcional):</label>
+<input type="email" id="email" name="email">
+
+<label for="categoria">Categoria:</label>
+<select id="categoria" name="categoria" required>
+<option value="">Selecione uma categoria</option>
+<option value="amiguinhos">Amiguinhos de Jesus</option>
+<option value="pre">Pré-Catequese</option>
+<option value="1ano">1° Ano</option>
+<option value="2ano">2° Ano</option>
+<option value="3ano">3° Ano</option>
+<option value="4ano">4° Ano</option>
+<option value="5ano">5° Ano</option>
+<option value="6ano">6° Ano</option>
+</select>
+
+<label for="observacoes">Observações (alergias, necessidades especiais, etc):</label>
+<textarea id="observacoes" name="observacoes" rows="4"></textarea>
+
+<button type="submit">Enviar Inscrição</button>
+</form>
+</div>
+</body>
+</html>
